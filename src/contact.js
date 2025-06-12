@@ -1,4 +1,4 @@
-import ima from "./assets/cat.jpeg"
+import cat from "./assets/cat.jpeg"
 
 export default class Contact {
     constructor(content) {
@@ -10,7 +10,7 @@ export default class Contact {
         div.classList.add("contact");
 
         let image = document.createElement("img");
-        image.src = ima;
+        image.src = cat;
         image.alt = "cat";
 
         let heading = document.createElement("h2");
