@@ -7,7 +7,7 @@ export default class About {
 
     createCard() {
         let div = document.createElement("div");
-        div.classList.add("tab");
+        div.classList.add("about");
 
         let image = document.createElement("img");
         image.src = sylvain;

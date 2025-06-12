@@ -88,7 +88,8 @@ button:hover {
 }
 
 .card,
-.tab {
+.about,
+.contact {
     background-color: #f2cc8fff;
     border-radius: 24px;
     color: #3d405b;
@@ -107,18 +108,50 @@ button:hover {
     text-shadow: 0px 0px 5px #3d405b, 0px 0px 10px #3d405b;
 }
 
-.tab {
+.about,
+.contact {
     flex-direction: row;
     gap: 70px;
 }
 
-.tab p {
+.about p {
     width: 50ch;
     font-size: 1.7rem;
     letter-spacing: 1.5px;
 }
 
-.tab img {
+.about img {
     height: 600px;
     border-radius: 16px;
+}
+
+.contact {
+    background-color: #3d405b;
+    color: #f4f1de;
+    box-shadow: 0px 0px 25px #3d405b;
+}
+
+.contact img {
+    height: 500px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 25px #f4f1de;
+}
+
+.contact p {
+    width: 50ch;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 0px 5px #f4f1de;
+}
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.contact div :nth-child(2) {
+    font-weight: 800;
+    display: flex;
+    gap: 8px;
 }
